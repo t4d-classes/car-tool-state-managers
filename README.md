@@ -1,6 +1,10 @@
 # Car Tool State Manager Project
 
-The projects in this repository represent many ways of managing state for the Car Tool application. To use each project (except the Apollo/GraphQL version), run the following commands:
+The projects in this repository represent many ways of managing state for the Car Tool application.
+
+## Project Commands
+
+To use each project (except the Apollo/GraphQL version), run the following commands:
 
 ```bash
 cd <PROJECT FOLDER>
@@ -9,6 +13,8 @@ npm install
 
 npm start
 ```
+
+## Project Commands for Apollo/GraphQL Version
 
 For the Apollo/GraphQL version, run the following commands:
 
