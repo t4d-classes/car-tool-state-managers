@@ -1,0 +1,20 @@
+{
+  "cars": [
+    {
+      "make": "Ford",
+      "model": "Fusion Hybrid",
+      "year": 2019,
+      "color": "blue",
+      "price": 45004,
+      "id": 1
+    },
+    {
+      "make": "Tesla",
+      "model": "S",
+      "year": 2018,
+      "color": "red",
+      "price": 100000,
+      "id": 2
+    }
+  ]
+}

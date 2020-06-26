@@ -1,0 +1,47 @@
+<script>
+
+  'use strict';
+
+  function doIt() {
+    console.log(this);
+
+    //const that = this;
+
+    const inner = () => {
+      console.log(this);
+    }
+
+    inner();
+  }
+
+  // doIt();
+  // window.doIt();
+
+  const o = {
+    id: 2,
+    doIt: doIt,
+  };
+
+  o.doIt();
+
+  // console.log(o.doIt === window.doIt);
+
+  // function myBind(fn, context) {
+
+  //   return function(...params) {
+  //     fn.apply(context, params);
+  //   };
+
+  // }
+
+  // const doItBound = doIt.bind(o);
+
+  // setTimeout(function() {
+  //   o.doIt();
+  // }, 2000);
+
+
+
+
+
+</script>
